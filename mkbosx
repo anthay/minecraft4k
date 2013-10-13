@@ -1,0 +1,4 @@
+#!/bin/bash 
+# build mc4kb.cpp with i686-apple-darwin11-llvm-g++-4.2 under OS X
+
+g++ -O3 -ffast-math -g -o mc4kb mc4kb.cpp -lglfw3 -framework Cocoa -framework OpenGL -framework IOKit
