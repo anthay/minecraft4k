@@ -5,6 +5,7 @@
 // This code is public domain - use at your own risk
 
 #include "gem.h"
+#include <cstdlib>
 
 
 // the block world map is stored in a cube of side mapdim; each map entry
